@@ -19,15 +19,15 @@ const CounterComp = () => {
                     fontSize: 20
                 }}
                 countTextStyle={{
-                    color:'red',
+                    color:'blue',
                     fontSize: 20,
                 }}
                 buttonStyle={{
                     width: 150,
-                    backgroundColor: 'red',
+                    backgroundColor: 'blue',
                     borderRadius: 20,
                     padding:20,
-                    borderColor: 'red',
+                    borderColor: 'blue',
                 }} />
         </View>
     );
