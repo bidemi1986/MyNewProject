@@ -10,13 +10,14 @@ const CounterComp = () => {
     }
     return (
         <View>
-            <Counter start={1} onChange={onChange} plus={'Add'}
-                minus={'Decrease'}
-                min={-100}
+            <Counter start={50} onChange={onChange} plus={'Add'}
+                minus={'minus'}
+                min={50}
                 max={100} 
                 buttonTextStyle={{
                     color: 'white',
-                    fontSize: 20
+                    fontSize: 20,
+                    fontWeight: "bold"
                 }}
                 countTextStyle={{
                     color:'red',
@@ -24,10 +25,10 @@ const CounterComp = () => {
                 }}
                 buttonStyle={{
                     width: 150,
-                    backgroundColor: 'red',
+                    backgroundColor: 'brown',
                     borderRadius: 20,
                     padding:20,
-                    borderColor: 'red',
+                    borderColor: 'brown',
                 }} />
         </View>
     );
