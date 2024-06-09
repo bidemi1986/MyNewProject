@@ -16,9 +16,7 @@ const CounterComp = () => {
                 max={100} 
                 buttonTextStyle={{
                     color: 'white',
-                    fontSize: 20,
-                
-                
+                    fontSize: 20
                 }}
                 countTextStyle={{
                     color:'red',
